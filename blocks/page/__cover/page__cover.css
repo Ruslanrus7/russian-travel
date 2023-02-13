@@ -1,0 +1,23 @@
+.page__cover {
+  padding: 0 48px;
+  margin: 0 auto 92px;
+}
+
+@media (max-width: 1279px) {
+  .page__cover {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .page__cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 560px) {
+
+  .page__cover {
+    margin-bottom: 64px;
+  }
+}
